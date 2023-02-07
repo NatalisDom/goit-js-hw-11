@@ -1,8 +1,3 @@
-* {
-  box-sizing: border-box;
-
-}
-
 .link {
   text-decoration: none;
   display: inline-block;
@@ -85,17 +80,33 @@ body {
 }
 
 .gallery{
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
+    display: flex;
     flex-wrap: wrap;
     gap: 30px;
-     
-  
+
+    justify-content: center;
+    margin-top: 20px;
+    
 }
 
+.photo-card{
+  width: 300px;
+  text-align: center;
+}
+
+.img{
+  object-fit: cover;
+  width: 100%;
+  height: 210px;
+}
+
+.info{
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+
+}
 
 .gallery-add__btn{
   display: flex;
